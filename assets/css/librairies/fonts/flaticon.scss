@@ -1,0 +1,73 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?5e5f4ff4ccf2860dfb310de75b5ecfd6") format("truetype"),
+url("./flaticon.woff?5e5f4ff4ccf2860dfb310de75b5ecfd6") format("woff"),
+url("./flaticon.woff2?5e5f4ff4ccf2860dfb310de75b5ecfd6") format("woff2"),
+url("./flaticon.eot?5e5f4ff4ccf2860dfb310de75b5ecfd6#iefix") format("embedded-opentype"),
+url("./flaticon.svg?5e5f4ff4ccf2860dfb310de75b5ecfd6#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "work": "\f101",
+    "suitcase": "\f102",
+    "system": "\f103",
+    "tools": "\f104",
+    "portfolio": "\f105",
+    "wrench": "\f106",
+    "suitcase-1": "\f107",
+    "plan": "\f108",
+    "handshake": "\f109",
+    "verify": "\f10a",
+    "select": "\f10b",
+    "team": "\f10c",
+);
+
+.flaticon-work:before {
+    content: map-get($flaticon-map, "work");
+}
+.flaticon-suitcase:before {
+    content: map-get($flaticon-map, "suitcase");
+}
+.flaticon-system:before {
+    content: map-get($flaticon-map, "system");
+}
+.flaticon-tools:before {
+    content: map-get($flaticon-map, "tools");
+}
+.flaticon-portfolio:before {
+    content: map-get($flaticon-map, "portfolio");
+}
+.flaticon-wrench:before {
+    content: map-get($flaticon-map, "wrench");
+}
+.flaticon-suitcase-1:before {
+    content: map-get($flaticon-map, "suitcase-1");
+}
+.flaticon-plan:before {
+    content: map-get($flaticon-map, "plan");
+}
+.flaticon-handshake:before {
+    content: map-get($flaticon-map, "handshake");
+}
+.flaticon-verify:before {
+    content: map-get($flaticon-map, "verify");
+}
+.flaticon-select:before {
+    content: map-get($flaticon-map, "select");
+}
+.flaticon-team:before {
+    content: map-get($flaticon-map, "team");
+}
