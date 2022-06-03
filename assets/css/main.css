@@ -1443,7 +1443,10 @@ z-index: 3;
 /*----------------------------------------------------------------
            start   video
 ----------------------------------------------------------------*/
-
+.video_area {
+  height: 600px;
+  overflow: hidden;
+}
 .videoAreahead h3 {
   font-size: 40px;
   margin: 30px 0 15px;
@@ -1456,6 +1459,7 @@ z-index: 3;
 
 .video_wrap .video_thumb {
 	position: relative;
+  height: 600px;
 }
 .video_wrap{
 }
